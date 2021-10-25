@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(../img/SF-gallery-wall-3_2048x2048.jpg);
+    background-size: cover;
+}
+
+body .drag-new {
+    border: 5px dashed rgb(9, 22, 196);
+    height: 500px;
+    width: 700px;
+    border-radius: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: rgba(59, 59, 59, 0.1);
+}
+
+body .drag-new.active {
+    border: 5px dashed rgb(235, 11, 11);
+}
+
+body .drag-new img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+body .drag-new .icon {
+    font-size: 100px;
+    color: rgb(46, 45, 45);
+}
+
+body .drag-new header {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(46, 45, 45);
+}
+
+body .drag-new span {
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(46, 45, 45);
+    margin: 10px 0 15px 0;
+}
+
+body .drag-new button {
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    background: white;
+    color: rgb(46, 45, 45);
+    border-radius: 5px;
+    cursor: pointer;
+}
